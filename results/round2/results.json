@@ -1,0 +1,242 @@
+[
+  {
+    "task": "1-logs",
+    "condition": "imperative",
+    "rep": 1,
+    "dir": "runs/r859316",
+    "named": true,
+    "implied": true,
+    "beyond": false,
+    "done": true
+  },
+  {
+    "task": "5-signature",
+    "condition": "reasoned",
+    "rep": 5,
+    "dir": "runs/re67c47",
+    "named": true,
+    "implied": true,
+    "beyond": true,
+    "done": true
+  },
+  {
+    "task": "1-logs",
+    "condition": "imperative",
+    "rep": 5,
+    "dir": "runs/r91fcc6",
+    "named": true,
+    "implied": true,
+    "beyond": false,
+    "done": true
+  },
+  {
+    "task": "5-signature",
+    "condition": "imperative",
+    "rep": 2,
+    "dir": "runs/r6cd8ce",
+    "named": true,
+    "implied": true,
+    "beyond": false,
+    "done": true
+  },
+  {
+    "task": "1-logs",
+    "condition": "reasoned",
+    "rep": 4,
+    "dir": "runs/r40c02b",
+    "named": true,
+    "implied": true,
+    "beyond": true,
+    "done": true
+  },
+  {
+    "task": "1-logs",
+    "condition": "reasoned",
+    "rep": 3,
+    "dir": "runs/r28a9cd",
+    "named": true,
+    "implied": true,
+    "beyond": true,
+    "done": true
+  },
+  {
+    "task": "1-logs",
+    "condition": "reasoned",
+    "rep": 0,
+    "dir": "runs/rf20617",
+    "named": true,
+    "implied": true,
+    "beyond": true,
+    "done": true
+  },
+  {
+    "task": "1-logs",
+    "condition": "imperative",
+    "rep": 0,
+    "dir": "runs/rf88591",
+    "named": true,
+    "implied": true,
+    "beyond": false,
+    "done": true
+  },
+  {
+    "task": "1-logs",
+    "condition": "imperative",
+    "rep": 2,
+    "dir": "runs/r156771",
+    "named": true,
+    "implied": true,
+    "beyond": false,
+    "done": true
+  },
+  {
+    "task": "5-signature",
+    "condition": "reasoned",
+    "rep": 2,
+    "dir": "runs/rf3c46a",
+    "named": true,
+    "implied": true,
+    "beyond": true,
+    "done": true
+  },
+  {
+    "task": "5-signature",
+    "condition": "reasoned",
+    "rep": 0,
+    "dir": "runs/rc2ca57",
+    "named": true,
+    "implied": true,
+    "beyond": true,
+    "done": true
+  },
+  {
+    "task": "5-signature",
+    "condition": "imperative",
+    "rep": 3,
+    "dir": "runs/r2e81c3",
+    "named": true,
+    "implied": true,
+    "beyond": false,
+    "done": true
+  },
+  {
+    "task": "5-signature",
+    "condition": "imperative",
+    "rep": 0,
+    "dir": "runs/rfd9aea",
+    "named": true,
+    "implied": true,
+    "beyond": false,
+    "done": true
+  },
+  {
+    "task": "5-signature",
+    "condition": "reasoned",
+    "rep": 1,
+    "dir": "runs/r722630",
+    "named": true,
+    "implied": true,
+    "beyond": true,
+    "done": true
+  },
+  {
+    "task": "5-signature",
+    "condition": "reasoned",
+    "rep": 4,
+    "dir": "runs/r360bc1",
+    "named": true,
+    "implied": true,
+    "beyond": true,
+    "done": true
+  },
+  {
+    "task": "1-logs",
+    "condition": "imperative",
+    "rep": 4,
+    "dir": "runs/r50164a",
+    "named": true,
+    "implied": true,
+    "beyond": false,
+    "done": true
+  },
+  {
+    "task": "1-logs",
+    "condition": "reasoned",
+    "rep": 1,
+    "dir": "runs/r04e3b4",
+    "named": true,
+    "implied": true,
+    "beyond": true,
+    "done": true
+  },
+  {
+    "task": "5-signature",
+    "condition": "imperative",
+    "rep": 1,
+    "dir": "runs/r3a2b8d",
+    "named": true,
+    "implied": true,
+    "beyond": false,
+    "done": true
+  },
+  {
+    "task": "5-signature",
+    "condition": "reasoned",
+    "rep": 3,
+    "dir": "runs/r571fa9",
+    "named": true,
+    "implied": true,
+    "beyond": true,
+    "done": true
+  },
+  {
+    "task": "5-signature",
+    "condition": "imperative",
+    "rep": 5,
+    "dir": "runs/rf49d50",
+    "named": true,
+    "implied": true,
+    "beyond": false,
+    "done": true
+  },
+  {
+    "task": "1-logs",
+    "condition": "reasoned",
+    "rep": 5,
+    "dir": "runs/r7d9791",
+    "named": true,
+    "implied": true,
+    "beyond": true,
+    "done": true
+  },
+  {
+    "task": "1-logs",
+    "condition": "imperative",
+    "rep": 3,
+    "dir": "runs/r71b6b6",
+    "named": true,
+    "implied": true,
+    "beyond": false,
+    "done": true
+  },
+  {
+    "task": "1-logs",
+    "condition": "reasoned",
+    "rep": 2,
+    "dir": "runs/r1f5833",
+    "named": true,
+    "implied": true,
+    "beyond": true,
+    "done": true
+  },
+  {
+    "task": "5-signature",
+    "condition": "imperative",
+    "rep": 4,
+    "dir": "runs/rb34907",
+    "named": true,
+    "implied": true,
+    "beyond": false,
+    "done": true
+  }
+]

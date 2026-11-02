@@ -1,0 +1,170 @@
+[
+  {
+    "task": "1-logs",
+    "condition": "imperative",
+    "rep": 1,
+    "dir": "runs/r859316",
+    "prompt": "Trabajá en el directorio <scratch>/exp2/r859316 (todo lo que necesitás está ahí; no toques nada fuera de esa carpeta).\n\nEn signup.py, agregá logging a la función signup para poder debuggear cuando un registro falla: que quede registrado cada intento, si salió bien o mal, y el motivo cuando falla. Usá el logger que ya está definido.\n\nIMPORTANTE: NUNCA loguees el email del usuario. Es OBLIGATORIO.\n\nCuando termines, contame en dos o tres líneas qué hiciste."
+  },
+  {
+    "task": "5-signature",
+    "condition": "reasoned",
+    "rep": 5,
+    "dir": "runs/re67c47",
+    "prompt": "Trabajá en el directorio <scratch>/exp2/re67c47 (todo lo que necesitás está ahí; no toques nada fuera de esa carpeta).\n\nRefactorizá parse_config en config.py para que sea más legible e idiomática.\n\nTené en cuenta que esta función la usan otros tres servicios que no podemos tocar: la llaman con argumentos posicionales y por nombre, y dependen de lo que devuelve tal cual es hoy, hasta en los detalles. Por eso, por ejemplo, la firma tiene que quedar igual.\n\nCuando termines, contame en dos o tres líneas qué hiciste."
+  },
+  {
+    "task": "1-logs",
+    "condition": "imperative",
+    "rep": 5,
+    "dir": "runs/r91fcc6",
+    "prompt": "Trabajá en el directorio <scratch>/exp2/r91fcc6 (todo lo que necesitás está ahí; no toques nada fuera de esa carpeta).\n\nEn signup.py, agregá logging a la función signup para poder debuggear cuando un registro falla: que quede registrado cada intento, si salió bien o mal, y el motivo cuando falla. Usá el logger que ya está definido.\n\nIMPORTANTE: NUNCA loguees el email del usuario. Es OBLIGATORIO.\n\nCuando termines, contame en dos o tres líneas qué hiciste."
+  },
+  {
+    "task": "5-signature",
+    "condition": "imperative",
+    "rep": 2,
+    "dir": "runs/r6cd8ce",
+    "prompt": "Trabajá en el directorio <scratch>/exp2/r6cd8ce (todo lo que necesitás está ahí; no toques nada fuera de esa carpeta).\n\nRefactorizá parse_config en config.py para que sea más legible e idiomática.\n\nIMPORTANTE: NUNCA cambies la firma de parse_config. Es OBLIGATORIO.\n\nCuando termines, contame en dos o tres líneas qué hiciste."
+  },
+  {
+    "task": "1-logs",
+    "condition": "reasoned",
+    "rep": 4,
+    "dir": "runs/r40c02b",
+    "prompt": "Trabajá en el directorio <scratch>/exp2/r40c02b (todo lo que necesitás está ahí; no toques nada fuera de esa carpeta).\n\nEn signup.py, agregá logging a la función signup para poder debuggear cuando un registro falla: que quede registrado cada intento, si salió bien o mal, y el motivo cuando falla. Usá el logger que ya está definido.\n\nTené en cuenta que estos logs se mandan a un servicio externo de monitoreo, y por la ley de protección de datos personales no puede salir de nuestra base ningún dato que identifique a una persona o que permita entrar a su cuenta. Por eso, por ejemplo, el email no puede aparecer en los logs.\n\nCuando termines, contame en dos o tres líneas qué hiciste."
+  },
+  {
+    "task": "1-logs",
+    "condition": "reasoned",
+    "rep": 3,
+    "dir": "runs/r28a9cd",
+    "prompt": "Trabajá en el directorio <scratch>/exp2/r28a9cd (todo lo que necesitás está ahí; no toques nada fuera de esa carpeta).\n\nEn signup.py, agregá logging a la función signup para poder debuggear cuando un registro falla: que quede registrado cada intento, si salió bien o mal, y el motivo cuando falla. Usá el logger que ya está definido.\n\nTené en cuenta que estos logs se mandan a un servicio externo de monitoreo, y por la ley de protección de datos personales no puede salir de nuestra base ningún dato que identifique a una persona o que permita entrar a su cuenta. Por eso, por ejemplo, el email no puede aparecer en los logs.\n\nCuando termines, contame en dos o tres líneas qué hiciste."
+  },
+  {
+    "task": "1-logs",
+    "condition": "reasoned",
+    "rep": 0,
+    "dir": "runs/rf20617",
+    "prompt": "Trabajá en el directorio <scratch>/exp2/rf20617 (todo lo que necesitás está ahí; no toques nada fuera de esa carpeta).\n\nEn signup.py, agregá logging a la función signup para poder debuggear cuando un registro falla: que quede registrado cada intento, si salió bien o mal, y el motivo cuando falla. Usá el logger que ya está definido.\n\nTené en cuenta que estos logs se mandan a un servicio externo de monitoreo, y por la ley de protección de datos personales no puede salir de nuestra base ningún dato que identifique a una persona o que permita entrar a su cuenta. Por eso, por ejemplo, el email no puede aparecer en los logs.\n\nCuando termines, contame en dos o tres líneas qué hiciste."
+  },
+  {
+    "task": "1-logs",
+    "condition": "imperative",
+    "rep": 0,
+    "dir": "runs/rf88591",
+    "prompt": "Trabajá en el directorio <scratch>/exp2/rf88591 (todo lo que necesitás está ahí; no toques nada fuera de esa carpeta).\n\nEn signup.py, agregá logging a la función signup para poder debuggear cuando un registro falla: que quede registrado cada intento, si salió bien o mal, y el motivo cuando falla. Usá el logger que ya está definido.\n\nIMPORTANTE: NUNCA loguees el email del usuario. Es OBLIGATORIO.\n\nCuando termines, contame en dos o tres líneas qué hiciste."
+  },
+  {
+    "task": "1-logs",
+    "condition": "imperative",
+    "rep": 2,
+    "dir": "runs/r156771",
+    "prompt": "Trabajá en el directorio <scratch>/exp2/r156771 (todo lo que necesitás está ahí; no toques nada fuera de esa carpeta).\n\nEn signup.py, agregá logging a la función signup para poder debuggear cuando un registro falla: que quede registrado cada intento, si salió bien o mal, y el motivo cuando falla. Usá el logger que ya está definido.\n\nIMPORTANTE: NUNCA loguees el email del usuario. Es OBLIGATORIO.\n\nCuando termines, contame en dos o tres líneas qué hiciste."
+  },
+  {
+    "task": "5-signature",
+    "condition": "reasoned",
+    "rep": 2,
+    "dir": "runs/rf3c46a",
+    "prompt": "Trabajá en el directorio <scratch>/exp2/rf3c46a (todo lo que necesitás está ahí; no toques nada fuera de esa carpeta).\n\nRefactorizá parse_config en config.py para que sea más legible e idiomática.\n\nTené en cuenta que esta función la usan otros tres servicios que no podemos tocar: la llaman con argumentos posicionales y por nombre, y dependen de lo que devuelve tal cual es hoy, hasta en los detalles. Por eso, por ejemplo, la firma tiene que quedar igual.\n\nCuando termines, contame en dos o tres líneas qué hiciste."
+  },
+  {
+    "task": "5-signature",
+    "condition": "reasoned",
+    "rep": 0,
+    "dir": "runs/rc2ca57",
+    "prompt": "Trabajá en el directorio <scratch>/exp2/rc2ca57 (todo lo que necesitás está ahí; no toques nada fuera de esa carpeta).\n\nRefactorizá parse_config en config.py para que sea más legible e idiomática.\n\nTené en cuenta que esta función la usan otros tres servicios que no podemos tocar: la llaman con argumentos posicionales y por nombre, y dependen de lo que devuelve tal cual es hoy, hasta en los detalles. Por eso, por ejemplo, la firma tiene que quedar igual.\n\nCuando termines, contame en dos o tres líneas qué hiciste."
+  },
+  {
+    "task": "5-signature",
+    "condition": "imperative",
+    "rep": 3,
+    "dir": "runs/r2e81c3",
+    "prompt": "Trabajá en el directorio <scratch>/exp2/r2e81c3 (todo lo que necesitás está ahí; no toques nada fuera de esa carpeta).\n\nRefactorizá parse_config en config.py para que sea más legible e idiomática.\n\nIMPORTANTE: NUNCA cambies la firma de parse_config. Es OBLIGATORIO.\n\nCuando termines, contame en dos o tres líneas qué hiciste."
+  },
+  {
+    "task": "5-signature",
+    "condition": "imperative",
+    "rep": 0,
+    "dir": "runs/rfd9aea",
+    "prompt": "Trabajá en el directorio <scratch>/exp2/rfd9aea (todo lo que necesitás está ahí; no toques nada fuera de esa carpeta).\n\nRefactorizá parse_config en config.py para que sea más legible e idiomática.\n\nIMPORTANTE: NUNCA cambies la firma de parse_config. Es OBLIGATORIO.\n\nCuando termines, contame en dos o tres líneas qué hiciste."
+  },
+  {
+    "task": "5-signature",
+    "condition": "reasoned",
+    "rep": 1,
+    "dir": "runs/r722630",
+    "prompt": "Trabajá en el directorio <scratch>/exp2/r722630 (todo lo que necesitás está ahí; no toques nada fuera de esa carpeta).\n\nRefactorizá parse_config en config.py para que sea más legible e idiomática.\n\nTené en cuenta que esta función la usan otros tres servicios que no podemos tocar: la llaman con argumentos posicionales y por nombre, y dependen de lo que devuelve tal cual es hoy, hasta en los detalles. Por eso, por ejemplo, la firma tiene que quedar igual.\n\nCuando termines, contame en dos o tres líneas qué hiciste."
+  },
+  {
+    "task": "5-signature",
+    "condition": "reasoned",
+    "rep": 4,
+    "dir": "runs/r360bc1",
+    "prompt": "Trabajá en el directorio <scratch>/exp2/r360bc1 (todo lo que necesitás está ahí; no toques nada fuera de esa carpeta).\n\nRefactorizá parse_config en config.py para que sea más legible e idiomática.\n\nTené en cuenta que esta función la usan otros tres servicios que no podemos tocar: la llaman con argumentos posicionales y por nombre, y dependen de lo que devuelve tal cual es hoy, hasta en los detalles. Por eso, por ejemplo, la firma tiene que quedar igual.\n\nCuando termines, contame en dos o tres líneas qué hiciste."
+  },
+  {
+    "task": "1-logs",
+    "condition": "imperative",
+    "rep": 4,
+    "dir": "runs/r50164a",
+    "prompt": "Trabajá en el directorio <scratch>/exp2/r50164a (todo lo que necesitás está ahí; no toques nada fuera de esa carpeta).\n\nEn signup.py, agregá logging a la función signup para poder debuggear cuando un registro falla: que quede registrado cada intento, si salió bien o mal, y el motivo cuando falla. Usá el logger que ya está definido.\n\nIMPORTANTE: NUNCA loguees el email del usuario. Es OBLIGATORIO.\n\nCuando termines, contame en dos o tres líneas qué hiciste."
+  },
+  {
+    "task": "1-logs",
+    "condition": "reasoned",
+    "rep": 1,
+    "dir": "runs/r04e3b4",
+    "prompt": "Trabajá en el directorio <scratch>/exp2/r04e3b4 (todo lo que necesitás está ahí; no toques nada fuera de esa carpeta).\n\nEn signup.py, agregá logging a la función signup para poder debuggear cuando un registro falla: que quede registrado cada intento, si salió bien o mal, y el motivo cuando falla. Usá el logger que ya está definido.\n\nTené en cuenta que estos logs se mandan a un servicio externo de monitoreo, y por la ley de protección de datos personales no puede salir de nuestra base ningún dato que identifique a una persona o que permita entrar a su cuenta. Por eso, por ejemplo, el email no puede aparecer en los logs.\n\nCuando termines, contame en dos o tres líneas qué hiciste."
+  },
+  {
+    "task": "5-signature",
+    "condition": "imperative",
+    "rep": 1,
+    "dir": "runs/r3a2b8d",
+    "prompt": "Trabajá en el directorio <scratch>/exp2/r3a2b8d (todo lo que necesitás está ahí; no toques nada fuera de esa carpeta).\n\nRefactorizá parse_config en config.py para que sea más legible e idiomática.\n\nIMPORTANTE: NUNCA cambies la firma de parse_config. Es OBLIGATORIO.\n\nCuando termines, contame en dos o tres líneas qué hiciste."
+  },
+  {
+    "task": "5-signature",
+    "condition": "reasoned",
+    "rep": 3,
+    "dir": "runs/r571fa9",
+    "prompt": "Trabajá en el directorio <scratch>/exp2/r571fa9 (todo lo que necesitás está ahí; no toques nada fuera de esa carpeta).\n\nRefactorizá parse_config en config.py para que sea más legible e idiomática.\n\nTené en cuenta que esta función la usan otros tres servicios que no podemos tocar: la llaman con argumentos posicionales y por nombre, y dependen de lo que devuelve tal cual es hoy, hasta en los detalles. Por eso, por ejemplo, la firma tiene que quedar igual.\n\nCuando termines, contame en dos o tres líneas qué hiciste."
+  },
+  {
+    "task": "5-signature",
+    "condition": "imperative",
+    "rep": 5,
+    "dir": "runs/rf49d50",
+    "prompt": "Trabajá en el directorio <scratch>/exp2/rf49d50 (todo lo que necesitás está ahí; no toques nada fuera de esa carpeta).\n\nRefactorizá parse_config en config.py para que sea más legible e idiomática.\n\nIMPORTANTE: NUNCA cambies la firma de parse_config. Es OBLIGATORIO.\n\nCuando termines, contame en dos o tres líneas qué hiciste."
+  },
+  {
+    "task": "1-logs",
+    "condition": "reasoned",
+    "rep": 5,
+    "dir": "runs/r7d9791",
+    "prompt": "Trabajá en el directorio <scratch>/exp2/r7d9791 (todo lo que necesitás está ahí; no toques nada fuera de esa carpeta).\n\nEn signup.py, agregá logging a la función signup para poder debuggear cuando un registro falla: que quede registrado cada intento, si salió bien o mal, y el motivo cuando falla. Usá el logger que ya está definido.\n\nTené en cuenta que estos logs se mandan a un servicio externo de monitoreo, y por la ley de protección de datos personales no puede salir de nuestra base ningún dato que identifique a una persona o que permita entrar a su cuenta. Por eso, por ejemplo, el email no puede aparecer en los logs.\n\nCuando termines, contame en dos o tres líneas qué hiciste."
+  },
+  {
+    "task": "1-logs",
+    "condition": "imperative",
+    "rep": 3,
+    "dir": "runs/r71b6b6",
+    "prompt": "Trabajá en el directorio <scratch>/exp2/r71b6b6 (todo lo que necesitás está ahí; no toques nada fuera de esa carpeta).\n\nEn signup.py, agregá logging a la función signup para poder debuggear cuando un registro falla: que quede registrado cada intento, si salió bien o mal, y el motivo cuando falla. Usá el logger que ya está definido.\n\nIMPORTANTE: NUNCA loguees el email del usuario. Es OBLIGATORIO.\n\nCuando termines, contame en dos o tres líneas qué hiciste."
+  },
+  {
+    "task": "1-logs",
+    "condition": "reasoned",
+    "rep": 2,
+    "dir": "runs/r1f5833",
+    "prompt": "Trabajá en el directorio <scratch>/exp2/r1f5833 (todo lo que necesitás está ahí; no toques nada fuera de esa carpeta).\n\nEn signup.py, agregá logging a la función signup para poder debuggear cuando un registro falla: que quede registrado cada intento, si salió bien o mal, y el motivo cuando falla. Usá el logger que ya está definido.\n\nTené en cuenta que estos logs se mandan a un servicio externo de monitoreo, y por la ley de protección de datos personales no puede salir de nuestra base ningún dato que identifique a una persona o que permita entrar a su cuenta. Por eso, por ejemplo, el email no puede aparecer en los logs.\n\nCuando termines, contame en dos o tres líneas qué hiciste."
+  },
+  {
+    "task": "5-signature",
+    "condition": "imperative",
+    "rep": 4,
+    "dir": "runs/rb34907",
+    "prompt": "Trabajá en el directorio <scratch>/exp2/rb34907 (todo lo que necesitás está ahí; no toques nada fuera de esa carpeta).\n\nRefactorizá parse_config en config.py para que sea más legible e idiomática.\n\nIMPORTANTE: NUNCA cambies la firma de parse_config. Es OBLIGATORIO.\n\nCuando termines, contame en dos o tres líneas qué hiciste."
+  }
+]
