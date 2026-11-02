@@ -1,0 +1,5 @@
+{
+  "task": "En notify.js, agregá a notificationText cuándo pasó el evento, en español y en tiempo relativo: que devuelva textos como \"ana pagó hace 3 minutos\", \"ana pagó hace 2 horas\" o \"ana pagó hace 5 días\". El evento trae la fecha en event.at (un Date); la función tiene que aceptar un segundo parámetro opcional now (un Date, por defecto la hora actual).",
+  "imperative": "IMPORTANTE: NUNCA agregues dependencias al package.json. Es OBLIGATORIO.",
+  "reasoned": "Tené en cuenta que esto corre en un worker con un límite estricto de tamaño, y que cualquier código de terceros tiene que pasar antes por una revisión de seguridad que tarda semanas. Por eso, por ejemplo, no se agregan dependencias al package.json."
+}

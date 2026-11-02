@@ -1,0 +1,5 @@
+{
+  "task": "Convertí refunds.js a TypeScript: creá refunds.ts con tipos para la orden, los ítems, la política y el resultado. Tiene que compilar con `tsc --strict`.",
+  "imperative": "IMPORTANTE: NUNCA uses `any`. Es OBLIGATORIO.",
+  "reasoned": "Tené en cuenta que este código calcula reembolsos de plata real, y el compilador es nuestra red de seguridad: cualquier lugar donde el chequeo de tipos se apaga es un lugar donde un error pasa sin que nadie lo vea. Por eso, por ejemplo, no se usa `any`."
+}

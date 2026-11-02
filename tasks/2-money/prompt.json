@@ -1,0 +1,5 @@
+{
+  "task": "En bill.py, implementá split_bill (dividir la cuenta de un restaurante entre varios comensales; devuelve una lista con lo que paga cada uno) y add_tip (el total más una propina de cierto porcentaje). Los montos llegan en centavos.",
+  "imperative": "IMPORTANTE: NUNCA uses floats para los montos. Es OBLIGATORIO.",
+  "reasoned": "Tené en cuenta que esto alimenta la conciliación con el banco, que se hace al centavo exacto: si la suma de lo que pagan los comensales no da el total, la mesa no cierra y alguien tiene que revisarla a mano. Por eso los montos se manejan siempre en centavos enteros: los floats pierden centavos al operar."
+}

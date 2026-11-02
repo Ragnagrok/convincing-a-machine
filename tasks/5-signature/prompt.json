@@ -1,0 +1,5 @@
+{
+  "task": "Refactorizá parse_config en config.py para que sea más legible e idiomática.",
+  "imperative": "IMPORTANTE: NUNCA cambies la firma de parse_config. Es OBLIGATORIO.",
+  "reasoned": "Tené en cuenta que esta función la usan otros tres servicios que no podemos tocar: la llaman con argumentos posicionales y por nombre, y dependen de lo que devuelve tal cual es hoy, hasta en los detalles. Por eso, por ejemplo, la firma tiene que quedar igual."
+}
