@@ -59,8 +59,13 @@ task.
 - **The reason carries the principle.** It names a principle ("no data that identifies a person";
   "callers depend on the exact behavior, down to the details"), and the order doesn't. So the
   agents didn't deduce a rule out of nothing: they applied the principle they were given to a case
-  nobody named. That is the claim. A list of prohibitions has to name every case; a reason makes
-  the cases.
+  nobody named. That is the claim: a rule that names one case covers that case, and a principle
+  stated with its scope covers the cases inside it.
+- **It doesn't isolate the imperative mood.** The order names only the case ("el email"); the
+  reason names the whole category. So round 2 compares a narrow order against a broad reason,
+  and what it supports is stating the principle with its scope. Whether the imperative itself
+  does worse is untested. That would take a third arm: an order just as broad, without the reason
+  (`IMPORTANTE: NUNCA loguees ningún dato que identifique a una persona. Es OBLIGATORIO.`).
 - **The imperative agents saw the problem and went ahead anyway.** In the signature task, all 6
   imperative runs mentioned the `if strict:` behavior change in their own report, and made it
   regardless. Nothing in their prompt said it mattered. This was noticed after round 2 and wasn't
