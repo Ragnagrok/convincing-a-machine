@@ -68,7 +68,7 @@ task.
   (`IMPORTANTE: NUNCA loguees ningún dato que identifique a una persona. Es OBLIGATORIO.`).
 - **The imperative agents saw the problem and went ahead anyway.** In the signature task, all 6
   imperative runs mentioned the `if strict:` behavior change in their own report, and made it
-  regardless. Nothing in their prompt said it mattered. This was noticed after round 2 and wasn't
+  regardless (the reports are in [`results/round2/reports.json`](results/round2/reports.json)). Nothing in their prompt said it mattered. This was noticed after round 2 and wasn't
   pre-registered.
 - **The scope is narrow.**
   - One model: Claude Haiku, run as Claude Code subagents.
@@ -86,14 +86,15 @@ task.
 | `tasks/<n>-<name>/check.py` | Scores one run. It prints `named`, `implied` and `done`, plus `beyond` on the two round-2 tasks. |
 | `run/prepare.py` | Creates one directory per run, with random names so the path doesn't give the condition away, and the exact prompt for each. |
 | `run/score.py` | Runs the checks over a round, writes `results.json` and prints the table and the test. |
-| `results/round1/`, `results/round2/` | Every run as the agent left it, the prompts it got (`runs.json`) and the scores (`results.json`). |
+| `results/round1/`, `results/round2/` | Every run as the agent left it, the prompts it got (`runs.json`), the report each agent wrote when it finished (`reports.json`) and the scores (`results.json`). |
 | `PREREGISTRATION.md` | The round-2 hypothesis, checks and analysis, written before round 2. |
-| `check.sh` | Re-scores both rounds from the recorded runs and fails if any number differs from the committed one. |
+| `check.sh` | Re-scores a copy of both rounds from the recorded runs and fails if any number differs from the committed one. It never writes to `results/`. |
 
 ## Running it
 
-`./check.sh` needs Python 3 and `tsc` (TypeScript 7) on the path, or in `$TSC`. It doesn't call
-any model: it checks that the published numbers come out of the published runs.
+`./check.sh` needs Python 3 and `tsc` (TypeScript 7) on the path, or in `$TSC`, and stops before
+scoring anything if `tsc` doesn't run. It doesn't call any model: it checks that the published
+numbers come out of the published runs.
 
 To run the experiment again:
 
